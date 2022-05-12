@@ -28,4 +28,14 @@ class MainController extends Controller
     {
         return view('blog.product', compact('product'));
     }
+
+    public function basket()
+    {
+        return view('blog.basket');
+    }
+
+    public function basketPlace()
+    {
+        return view('blog.order');
+    }
 }
